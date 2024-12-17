@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+<body>
+    <article class="card" aria-labelledby="article-title" role="article">
+      <!-- Image Section -->
+      <figure class="image-section">
+        <img 
+        src="images/drawers.jpg" 
+        alt="A decorative room with green furniture and vase with dry plants."
+        class="decor-image">
+      </figure>
+
+      <!-- Content Section -->
+       <div class="content-section">
+          <h1 id="article-title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+          <p class="description">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+
+            <!-- Author Info Section-->
+          <footer class="author-info" aria-label="Author Information">
+             <!-- Author Avatar,  Name and Date -->
+            <div>
+              <img 
+              src="images/avatar-michelle.jpg" 
+              alt="Michelle Appleton"
+              class="author-avatar">
+              <p class="author-description" tabindex="0">
+                Michelle Appleton
+                <time datetime="2020-06-28">28 Jun 2020</time>
+              </p>
+            </div>
+
+            <!-- Share Button -->
+            <button 
+              id="share-button" 
+              class="share-btn"
+              aria-expanded="false"
+              aria-label="Share this article">
+              <i class="fa-solid fa-share"></i>
+            </button>
+
+            <!-- Share Links Section -->
+            <nav 
+              id="share-links" 
+              class="share-links hidden" 
+              aria-label="Social Media Links">
+              <span>Share</span>
+              <a href="#" class="social-link" tabindex="0" aria-label="Share on Facebook">
+                <img src="images/icon-facebook.svg" alt="Facebook Icom">
+              </a>
+              <a href="#" class="social-link" tabindex="0" aria-label="Share on Twitter">
+                <img src="images/icon-twitter.svg" alt="Twitter Icom">
+              </a>
+              <a href="#" class="social-link" tabindex="0" aria-label="Share on Pinterest">
+                <img src="images/icon-pinterest.svg" alt="Pinterest Icom">
+              </a>
+            </nav>
+          </footer>
+       </div>
+    </article>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/yashi-singh-b4143a246" target="_blank">Yashi Singh</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
