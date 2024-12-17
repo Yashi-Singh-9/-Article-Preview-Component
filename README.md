@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/article-preview-component-TVtRg-zcxi)
+- Live Site URL: [Live Site](https://yashi-singh-9.github.io/Article-Preview-Component/)
 
 ## My process
 
