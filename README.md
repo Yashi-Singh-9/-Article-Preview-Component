@@ -135,9 +135,3 @@ To install and run the SCSS files on your local machine, follow these steps:
 
 - Thanks to the [Frontend Mentor community](https://www.frontendmentor.io/community) for feedback and suggestions throughout the project.
 - Special thanks to the resources available on MDN for their excellent tutorials on accessibility.
-
----
-
-### Notes:
-- Be sure to replace the placeholder text (e.g., `Add solution URL here`, `Add your name here`) with your actual information.
-- Add your **screenshot** in the appropriate folder and update the path.
